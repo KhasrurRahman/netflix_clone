@@ -1,0 +1,36 @@
+.nav_container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    transition-timing-function: ease-in;
+    transition: all .5s;
+    z-index: 1;
+}
+
+.nav_container_balce{
+    background-color: #111;
+}
+
+.nav_logo{
+    height: 40px;
+    object-fit: contain;
+    position: fixed;
+    left: 20px;
+}
+
+.nav_button{
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    object-fit: contain;
+    right: 20px;
+    position: fixed;
+    cursor: pointer;
+}
