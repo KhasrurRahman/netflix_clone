@@ -1,9 +1,9 @@
 import React from "react";
-import axios from "axios";
 import { useEffect } from "react";
 import { useState } from "react";
 import "./row.css";
 import RowSkeleton from "../skeleton/RowSkeleton";
+import axios from "../../axios";
 
 const Row = ({ title, fetchUrl, isLargeRow }) => {
   const [movies, setMovies] = useState([]);
